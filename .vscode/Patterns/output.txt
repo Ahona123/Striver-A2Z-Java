@@ -1,4 +1,0 @@
-Popped: 30
-Stack:
-20
-10
