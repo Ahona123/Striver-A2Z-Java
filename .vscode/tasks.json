@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Java with Input",
+      "type": "shell",
+      "command": "javac .vscode/Demo.java && java -cp .vscode Demo < .vscode/input.txt > .vscode/output.txt",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
