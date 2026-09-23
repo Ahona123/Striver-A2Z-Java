@@ -12,8 +12,7 @@ public class IntersectionArray {
         for(int i=0;i<m;i++){
             arr2[i]=sc.nextInt();
         }
-
-        ArrayList <Integer> intersection = new ArrayList <>();
+        ArrayList<Integer>intersection = new ArrayList<> ();
         int visited[]= new int[m];
         for(int i =0;i<n;i++){
             for(int j=0;j<m;j++){
